@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бүтээгдэхүүн</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg, #0b1a3a, #243b5a, #3b4f6d);
+      color:white;
+      padding:40px 20px;
+    }
+
+    h1{
+      text-align:center;
+      font-size:45px;
+      margin-bottom:10px;
+    }
+
+    h1 span{
+      color:#38bdf8;
+    }
+
+    .subtitle{
+      text-align:center;
+      margin-bottom:40px;
+      color:#cbd5e1;
+    }
+
+    .products{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap:25px;
+      max-width:1200px;
+      margin:0 auto;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.08);
+      border-radius:20px;
+      overflow:hidden;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card img{
+      width:100%;
+      height:180px;
+      object-fit:cover;
+    }
+
+    .card-content{
+      padding:20px;
+    }
+
+    .card h2{
+      color:#38bdf8;
+      margin-bottom:10px;
+    }
+
+    .card p{
+      color:#e2e8f0;
+      font-size:14px;
+      line-height:1.5;
+    }
+
+    .btns{
+      text-align:center;
+      margin-top:40px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 25px;
+      background:#38bdf8;
+      color:#0f172a;
+      border-radius:25px;
+      text-decoration:none;
+      margin:10px;
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Манай <span>бүтээгдэхүүн</span></h1>
+<p class="subtitle">Бидний хийдэг амттай bakery бүтээгдэхүүнүүд</p>
+
+<div class="products">
+
+  <div class="card">
+    <img src="images/salted-bread.jpg" alt="Salted bread">
+    <div class="card-content">
+      <h2>Salted bread</h2>
+      <p> •  4гр хөөлгөгч
+•  195гр ус
+•  12гр элсэг чихэр
+•  300гр гурил
+•  6гр давс
+•  15гр цөцгий 
+Үйл явц:
+Бүх орцоо нэг саванд хийж сайтар зуурна. Тэгээд сайтар хөөтөл нь өрөөний тем-т байлгана.  Хөөлгөөд ижилхэн хэмжээтэй 7 юмуу 8 ширхэг болгож хуваагаад элдэж хэвэнд оруулна. Дотор нь 7гр орчим цөцгий бүтнээр нь хийнэ. Ахин сайтар хөөлгөөд дээр нь ус цацаж чимх давс тавина. 200градуст 12-14 мин . Шаргал өнгөтэй болох хүртэл шарах шүүгээнд байлгана.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/chocolate-cupcake.jpg" alt="chocolate-cupcake">
+    <div class="card-content">
+      <h2>Шоколадтай cupcake</h2>
+      <p>Орц: 3ш өндөг, 67р элсэн чихэр, 30гр масла, 130гр гурил, нэг халбага хөрөнгө,25гр сүү, 2 чимх давс, какао 30гр, шоколад  10гр, Шоколадтай cupcake  Эхлээд 3ш өндөгний цагааныг хөөсөртөл нь сайтар хутгаж 67гр элсэн чихэрээ бага багаар хийнэ Өндөгний шар дээрээ 2 чимх давс хийж өндөгний цагаан дээрээ нэмнэ-25гр сүүгээ 30гр маслатай хамт хийгээд халаана Сүүгээ бага зэрэг хөргөөгөөд дээр нь нэмнэ 130 гр гурил, 30гр какао, нэг халбага хөрөнгөө хийгээд , шоколадаа сайтар жижиглээд сайтар хутгана сайтар хутгана 200градуст 25-30мин</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/blueberry-cupcake.jpg" alt="blueberry-cupcake">
+    <div class="card-content">
+      <h2>Нэрстэй cupcake</h2>
+      <p>Орц: 3ш өндөг, 67р элсэн чихэр, 30гр масла, 130гр гурил, нэг халбага хөрөнгө,25гр сүү, 2 чимх давс , нэрс 10гр, өнгө оруулагч, крем
+ •Хийх арга
+Нэрстэй cupcake
+○  Эхлээд 3ш өндөгний цагааныг хөөсөртөл нь сайтар хутгаж 67гр элсэн чихэрээ бага            багаар хийнэ
+Өндөгний шар дээрээ 2 чимх давс хийж өндөгний цагаан дээрээ нэмнэ
+25гр сүүгээ 30гр маслатай хамт хийгээд халаана
+Сүүгээ бага зэрэг хөргөөгөөд дээр нь нэмнэ
+130 гр гурил, нэрсээ, нэг халбага хөрөнгөө хийгээд ,
+200градуст 25-30мин
+Кремээ сайтар хутгаж өтгөн болгоод хэвэнд оруулж тавина</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/garlic-bread.jpg" alt="garlic-bread">
+    <div class="card-content">
+      <h2>Сармистай талх</h2>
+      <p>Орц:
+-165гр бүлээн ус
+-125 хөрөнгө
+-25гр элсэн чихэр
+-1ш өндөг
+-400Гр гурил
+-6ш сармис эсвэл нунтаг сармис байж болно
+-6гр давс
+-яншуй амталгаагаар
+-113 зөөлөн масла
+ 
+  Үйл явц:
+1 Ус, хөрөнгө, элсэн чихэр, өндөгөө саванд хийж сайтар хутгана. 
+2 10минутын зайтай 3 удаа сунгана.
+3 Даавуугаар бүтээгээд  сайтар хөөтөл нь 4-6 цаг байлгана.
+4 Өрөөний тем байлгасан масла-аа жижиглэж хэрчсэн сармис болон яншуйтайгаа хольж хутгана.
+5 Гурил хөөсний дараа гурилаа нарийхан урт болгож элдээд энэний өмнө бэлдсэн маслаа дээр нь түрхэнэ. Тэгээд эргүүлж урт болгоод савандаа бахтахаар хэрчиж хийнэ.
+6 180градуст 30-35минут болгоно..</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/chocolate-cookie.jpg" alt="Chocolate Cookie">
+    <div class="card-content">
+      <h2>Chocolate cookie
+</h2>
+      <p>•  115 цөцгий
+•  100гр цагаан элсэн чихэр
+•  150гр бор элсэн чихэр
+•  1 өндөг
+•  185гр гурил
+•  1чимх сода
+•  Шоколад( хүссэн хэмжээгээрээ)
+Хий арга:
+Цөцгийгөө бор өнгөтэй болтол нь халаагаад дээр нь 2 элсэн чихрээ хийж сайтар хутгана.  Дараа нь үлдсэн бүх орцнуудаа нэмж хийгээд зуурна.
+Зуурмагаа бөөрөнхийлж зайтай байруулаад 150градуст 20-30 минут</p>
+    </div>
+  </div>
+
+
+
+</div>
+
+<div class="btns">
+  <a href="about.html" class="btn">Буцах</a>
+  <a href="index.html" class="btn">Нүүр</a>
+</div>
+
+</body>
+</html>
+
+<body><script>
+  document.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", function(e) {
+      if (this.getAttribute("href").includes(".html")) {
+        e.preventDefault();
+        document.body.style.opacity = "0";
+        setTimeout(() => {
+          window.location = this.href;
+        }, 300);
+      }
+    });
+  });
+</script></body>
+
+<body><nav class="navbar">
+  <h1 class="logo">Бичил талх</h1>
+  <ul>
+    <li><a href="index.html">Нүүр</a></li>
+    <li><a href="about.html">Танилцуулга</a></li>
+    <li><a href="products.html">Бүтээгдэхүүн</a></li>
+  </ul>
+</nav></body>
+
+<a href="salted-bread.html" class="card-link">
+  <div class="card">
+    <img src="salted-bread.jpg" alt="Salted bread">
+    <div class="card-content">
+      <h2>Salted bread</h2>
+      <p>...</p>
+    </div>
+  </div>
+</a>
+
+
+<a href="chocolate-cupcake.html" class="card-link">
+  <div class="card">
+    <img src="chocolate-cupcake.jpg" alt="Шоколадтай cupcake">
+    <div class="card-content">
+      <h2>Шоколадтай cupcake</h2>
+      <p>...</p>
+    </div>
+  </div>
+</a>
+
+
+<a href="garlic-bread.html" class="card-link">
+  <div class="card">
+    <img src="garlic-bread.jpg" alt="Сармистай талх">
+    <div class="card-content">
+      <h2>Сармистай талх</h2>
+      <p>...</p>
+    </div>
+  </div>
+</a>
+
+
+<a href="blueberry-cupcake.html" class="card-link">
+  <div class="card">
+    <img src="blueberry-cupcake.jpg" alt="Нэрстэй cupcake">
+    <div class="card-content">
+      <h2>Нэрстэй cupcake</h2>
+      <p>...</p>
+    </div>
+  </div>
+</a>
+
+
+<a href="chocolate-cookie.html" class="card-link">
+  <div class="card">
+    <img src="chocolate-cookie.jpg" alt="Chocolate cookie">
+    <div class="card-content">
+      <h2>Chocolate cookie</h2>
+      <p>...</p>
+    </div>
+  </div>
+</a>
+
+<style> .card-link{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}</style>
+
